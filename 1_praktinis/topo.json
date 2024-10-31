@@ -137,7 +137,7 @@
       "layout": {"visibility": "visible"},
       "paint": {
         "fill-antialias": {"base": 1, "stops": [[0, false], [9, true]]},
-        "fill-color": "rgba(109, 210, 66, 0.95)",
+        "fill-color": "rgba(140, 221, 124, 0.95)",
         "fill-opacity": 1,
         "fill-outline-color": "hsla(0, 0%, 0%, 0.03)"
       }
