@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Jolita Mo" version="3.32.2-Lima" saveUser="jolit" saveDateTime="2024-11-21T19:09:57" projectname="">
+<qgis saveUserFull="Jolita Mo" version="3.32.2-Lima" saveUser="jolit" saveDateTime="2024-11-21T19:21:11" projectname="">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -41,10 +41,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>488429.59019744058605283</xmin>
-      <ymin>6150027.75361582078039646</ymin>
-      <xmax>523185.69899761339183897</xmax>
-      <ymax>6152858.11009546555578709</ymax>
+      <xmin>537139.17725710792001337</xmin>
+      <ymin>6078044.72540710214525461</ymin>
+      <xmax>541483.69085712952073663</xmax>
+      <ymax>6078398.51996705774217844</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -1370,8 +1370,8 @@
         </symbols>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{298c47a9-7978-4c3e-9b5a-9737d12fc216}">
-          <rule key="{e05a7608-cdc6-42ca-9ec2-3eb79b6f3466}" filter="&quot;TIPAS&quot; = 1" description="1">
+        <rules key="{e84619ec-b641-4281-b75d-d629941a9b75}">
+          <rule key="{4440a108-586b-4e10-a515-fa0783023f11}" filter="&quot;TIPAS&quot; = 1" description="1">
             <settings calloutType="simple">
               <text-style fontItalic="0" capitalization="0" fontKerning="1" allowHtml="0" fontWeight="50" useSubstitutions="0" previewBkgrdColor="255,255,255,255" fontSize="7" textOpacity="1" multilineHeight="1" isExpression="0" blendMode="0" fontWordSpacing="0" textColor="255,255,255,255" textOrientation="horizontal" fieldName="NUMERIS" fontFamily="Arial" forcedBold="0" fontStrikeout="0" fontLetterSpacing="0" legendString="Aa" fontUnderline="0" multilineHeightUnit="Percentage" namedStyle="Regular" fontSizeUnit="Point" forcedItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -1495,7 +1495,7 @@
               </callout>
             </settings>
           </rule>
-          <rule scalemaxdenom="1000000" key="{c4f705d1-daaf-4e6f-b13a-7d2eb2adcc0d}" scalemindenom="100" filter="&quot;TIPAS&quot; = 2" description="2">
+          <rule scalemaxdenom="1000000" key="{ac10d73c-d4bb-403e-8eb5-efb1246113da}" scalemindenom="100" filter="&quot;TIPAS&quot; = 2" description="2">
             <settings calloutType="simple">
               <text-style fontItalic="0" capitalization="0" fontKerning="1" allowHtml="0" fontWeight="50" useSubstitutions="0" previewBkgrdColor="255,255,255,255" fontSize="7" textOpacity="1" multilineHeight="1" isExpression="0" blendMode="0" fontWordSpacing="0" textColor="255,255,255,255" textOrientation="horizontal" fieldName="NUMERIS" fontFamily="Arial" forcedBold="0" fontStrikeout="0" fontLetterSpacing="0" legendString="Aa" fontUnderline="0" multilineHeightUnit="Percentage" namedStyle="Regular" fontSizeUnit="Point" forcedItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -1584,8 +1584,8 @@
                 <substitutions/>
               </text-style>
               <text-format multilineAlign="0" autoWrapLength="0" useMaxLineLengthForAutoWrap="1" addDirectionSymbol="0" formatNumbers="0" decimals="3" leftDirectionSymbol="&lt;" wrapChar="" rightDirectionSymbol=">" reverseDirectionSymbol="0" placeDirectionSymbol="0" plussign="0"/>
-              <placement repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" centroidWhole="0" rotationUnit="AngleDegrees" lineAnchorPercent="0.5" lineAnchorClipping="0" layerType="LineGeometry" offsetType="0" maxCurvedCharAngleIn="25" quadOffset="4" distMapUnitScale="3x:0,0,0,0,0,0" centroidInside="0" repeatDistance="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" overrunDistanceUnit="Point" polygonPlacementFlags="2" geometryGeneratorEnabled="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" lineAnchorTextPoint="FollowPlacement" placement="2" maxCurvedCharAngleOut="-25" geometryGeneratorType="PointGeometry" repeatDistanceUnits="MM" dist="0" overrunDistance="0" lineAnchorType="0" overlapHandling="PreventOverlap" preserveRotation="1" xOffset="0" yOffset="0" offsetUnits="MM" distUnits="MM" geometryGenerator="" priority="5" rotationAngle="0" placementFlags="9" fitInPolygonOnly="0" allowDegraded="0"/>
-              <rendering obstacleFactor="1" upsidedownLabels="0" scaleMin="0" maxNumLabels="2000" fontLimitPixelSize="0" drawLabels="1" fontMinPixelSize="3" limitNumLabels="0" obstacle="1" minFeatureSize="0" zIndex="0" mergeLines="1" labelPerPart="0" unplacedVisibility="0" scaleVisibility="0" obstacleType="1" fontMaxPixelSize="10000" scaleMax="0"/>
+              <placement repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" centroidWhole="0" rotationUnit="AngleDegrees" lineAnchorPercent="0.5" lineAnchorClipping="0" layerType="LineGeometry" offsetType="0" maxCurvedCharAngleIn="25" quadOffset="4" distMapUnitScale="3x:0,0,0,0,0,0" centroidInside="0" repeatDistance="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" overrunDistanceUnit="Point" polygonPlacementFlags="2" geometryGeneratorEnabled="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" lineAnchorTextPoint="FollowPlacement" placement="2" maxCurvedCharAngleOut="-25" geometryGeneratorType="PointGeometry" repeatDistanceUnits="RenderMetersInMapUnits" dist="0" overrunDistance="0" lineAnchorType="0" overlapHandling="PreventOverlap" preserveRotation="1" xOffset="0" yOffset="0" offsetUnits="MM" distUnits="MM" geometryGenerator="" priority="5" rotationAngle="0" placementFlags="9" fitInPolygonOnly="0" allowDegraded="0"/>
+              <rendering obstacleFactor="1" upsidedownLabels="0" scaleMin="0" maxNumLabels="2000" fontLimitPixelSize="0" drawLabels="1" fontMinPixelSize="3" limitNumLabels="0" obstacle="1" minFeatureSize="13" zIndex="0" mergeLines="1" labelPerPart="0" unplacedVisibility="0" scaleVisibility="0" obstacleType="1" fontMaxPixelSize="10000" scaleMax="0"/>
               <dd_properties>
                 <Option type="Map">
                   <Option value="" name="name" type="QString"/>
@@ -1619,7 +1619,7 @@
               </callout>
             </settings>
           </rule>
-          <rule scalemaxdenom="1000000" key="{cc54d231-fe16-4d28-9959-2b9c12f0ab9e}" scalemindenom="100" filter="&quot;TIPAS&quot; = 3" description="3">
+          <rule scalemaxdenom="1000000" key="{949da497-02fd-4ffb-8c78-94d08ea272ee}" scalemindenom="100" filter="&quot;TIPAS&quot; = 3" description="3">
             <settings calloutType="simple">
               <text-style fontItalic="0" capitalization="0" fontKerning="1" allowHtml="0" fontWeight="50" useSubstitutions="0" previewBkgrdColor="255,255,255,255" fontSize="7" textOpacity="1" multilineHeight="1" isExpression="0" blendMode="0" fontWordSpacing="0" textColor="0,0,0,255" textOrientation="horizontal" fieldName="NUMERIS" fontFamily="Arial" forcedBold="0" fontStrikeout="0" fontLetterSpacing="0" legendString="Aa" fontUnderline="0" multilineHeightUnit="Percentage" namedStyle="Regular" fontSizeUnit="Point" forcedItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -1743,7 +1743,7 @@
               </callout>
             </settings>
           </rule>
-          <rule scalemaxdenom="1000000" key="{6a4a6417-a22a-4c4e-a77f-0334f5ae52f0}" scalemindenom="100" filter="&quot;TIPAS&quot; = 4" description="4">
+          <rule scalemaxdenom="1000000" key="{6b895ea7-e9a8-4474-85b2-e985c287993e}" scalemindenom="100" filter="&quot;TIPAS&quot; = 4" description="4">
             <settings calloutType="simple">
               <text-style fontItalic="0" capitalization="0" fontKerning="1" allowHtml="0" fontWeight="50" useSubstitutions="0" previewBkgrdColor="255,255,255,255" fontSize="7" textOpacity="1" multilineHeight="1" isExpression="0" blendMode="0" fontWordSpacing="0" textColor="255,255,255,255" textOrientation="horizontal" fieldName="NUMERIS" fontFamily="Arial" forcedBold="0" fontStrikeout="0" fontLetterSpacing="0" legendString="Aa" fontUnderline="0" multilineHeightUnit="Percentage" namedStyle="Regular" fontSizeUnit="Point" forcedItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -1867,7 +1867,7 @@
               </callout>
             </settings>
           </rule>
-          <rule scalemaxdenom="5000" key="{c7d13467-69fd-4521-99c5-e670534c6337}" scalemindenom="100" filter="&quot;TIPAS&quot; = 5" description="5">
+          <rule scalemaxdenom="5000" key="{6c5acdbc-fa25-4d44-865c-fa84226c4784}" scalemindenom="100" filter="&quot;TIPAS&quot; = 5" description="5">
             <settings calloutType="simple">
               <text-style fontItalic="0" capitalization="0" fontKerning="1" allowHtml="0" fontWeight="50" useSubstitutions="0" previewBkgrdColor="255,255,255,255" fontSize="8" textOpacity="1" multilineHeight="1" isExpression="0" blendMode="0" fontWordSpacing="0" textColor="0,0,0,255" textOrientation="horizontal" fieldName="VARDAS" fontFamily="Arial" forcedBold="0" fontStrikeout="0" fontLetterSpacing="0" legendString="Aa" fontUnderline="0" multilineHeightUnit="Percentage" namedStyle="Regular" fontSizeUnit="Point" forcedItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -1991,7 +1991,7 @@
               </callout>
             </settings>
           </rule>
-          <rule scalemaxdenom="5000" key="{630fc243-e4d3-4075-9b7f-6a2c29fdefcd}" scalemindenom="100" filter="&quot;TIPAS&quot; =6" description="6">
+          <rule scalemaxdenom="5000" key="{db3b73b3-fd22-4c2a-a141-7c00314e5d32}" scalemindenom="100" filter="&quot;TIPAS&quot; =6" description="6">
             <settings calloutType="simple">
               <text-style fontItalic="0" capitalization="0" fontKerning="1" allowHtml="0" fontWeight="50" useSubstitutions="0" previewBkgrdColor="255,255,255,255" fontSize="8" textOpacity="1" multilineHeight="1" isExpression="0" blendMode="0" fontWordSpacing="0" textColor="0,0,0,255" textOrientation="horizontal" fieldName="VARDAS" fontFamily="Arial" forcedBold="0" fontStrikeout="0" fontLetterSpacing="0" legendString="Aa" fontUnderline="0" multilineHeightUnit="Percentage" namedStyle="Regular" fontSizeUnit="Point" forcedItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -2115,7 +2115,7 @@
               </callout>
             </settings>
           </rule>
-          <rule scalemaxdenom="5000" key="{d4376dff-b110-4574-868a-2f844fb06965}" scalemindenom="100" filter="&quot;TIPAS&quot; =12" description="12">
+          <rule scalemaxdenom="5000" key="{ad97f2cb-d09d-43cf-847f-423fe40ab856}" scalemindenom="100" filter="&quot;TIPAS&quot; =12" description="12">
             <settings calloutType="simple">
               <text-style fontItalic="0" capitalization="0" fontKerning="1" allowHtml="0" fontWeight="50" useSubstitutions="0" previewBkgrdColor="255,255,255,255" fontSize="8" textOpacity="1" multilineHeight="1" isExpression="0" blendMode="0" fontWordSpacing="0" textColor="0,0,0,255" textOrientation="horizontal" fieldName="VARDAS" fontFamily="Arial" forcedBold="0" fontStrikeout="0" fontLetterSpacing="0" legendString="Aa" fontUnderline="0" multilineHeightUnit="Percentage" namedStyle="Regular" fontSizeUnit="Point" forcedItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -2239,7 +2239,7 @@
               </callout>
             </settings>
           </rule>
-          <rule scalemaxdenom="5000" key="{0940fcc7-2ae4-46a0-8b4e-de114de29167}" scalemindenom="100" filter="&quot;TIPAS&quot; =15" description="15">
+          <rule scalemaxdenom="5000" key="{ec0eba70-17d5-479b-94cb-4339694c90c9}" scalemindenom="100" filter="&quot;TIPAS&quot; =15" description="15">
             <settings calloutType="simple">
               <text-style fontItalic="0" capitalization="0" fontKerning="1" allowHtml="0" fontWeight="50" useSubstitutions="0" previewBkgrdColor="255,255,255,255" fontSize="8" textOpacity="1" multilineHeight="1" isExpression="0" blendMode="0" fontWordSpacing="0" textColor="0,0,0,255" textOrientation="horizontal" fieldName="VARDAS" fontFamily="Arial" forcedBold="0" fontStrikeout="0" fontLetterSpacing="0" legendString="Aa" fontUnderline="0" multilineHeightUnit="Percentage" namedStyle="Regular" fontSizeUnit="Point" forcedItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -3071,7 +3071,7 @@ def my_form_open(dialog, layer, feature):
   <Sensors/>
   <ProjectViewSettings UseProjectScales="0" rotation="0">
     <Scales/>
-    <DefaultViewExtent xmax="523185.69899761339183897" ymax="6165675.40370853338390589" ymin="6137210.46000275295227766" xmin="488429.59019744058605283">
+    <DefaultViewExtent xmax="541483.69085712952073663" ymax="6080300.96214419975876808" ymin="6076142.28322996012866497" xmin="537139.17725710792001337">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["LKS94 / Lithuania TM",BASEGEOGCRS["LKS94",DATUM["Lithuania 1994 (ETRS89)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4669]],CONVERSION["Lithuania 1994",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",24,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9998,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (X)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (Y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Lithuania - onshore and offshore."],BBOX[53.89,19.02,56.45,26.82]],ID["EPSG",3346]]</wkt>
         <proj4>+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9998 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
