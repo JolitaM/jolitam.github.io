@@ -50,7 +50,7 @@
       "maxzoom": 13,
       "filter": ["all", ["==", "class", "national_park"]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(177, 181, 162, 1)", "fill-opacity": 0.1}
+      "paint": {"fill-color": "rgba(198, 198, 188, 1)", "fill-opacity": 0.1}
     },
     {
       "id": "landuse-residential",
@@ -64,8 +64,8 @@
       "paint": {
         "fill-color": {
           "stops": [
-            [6, "rgba(205, 198, 198, 1)"],
-            [10, "rgba(213, 206, 206, 0.96)"]
+            [6, "rgba(238, 235, 235, 1)"],
+            [10, "rgba(223, 218, 218, 1)"]
           ]
         }
       }
@@ -92,7 +92,7 @@
         ["==", "$type", "Polygon"],
         ["in", "class", "industrial", "garages", "dam"]
       ],
-      "paint": {"fill-color": "rgba(119, 119, 108, 0.45)"}
+      "paint": {"fill-color": "rgba(218, 218, 210, 0.45)"}
     },
     {
       "id": "landuse-cemetery",
@@ -100,7 +100,7 @@
       "source": "openmaptiles",
       "source-layer": "landuse",
       "filter": ["==", "class", "cemetery"],
-      "paint": {"fill-color": "rgba(163, 163, 159, 0.57)"}
+      "paint": {"fill-color": "rgba(210, 210, 210, 0.57)"}
     },
     {
       "id": "landuse-hospital",
@@ -135,7 +135,7 @@
       "layout": {"visibility": "visible"},
       "paint": {
         "fill-antialias": {"base": 1, "stops": [[0, false], [9, true]]},
-        "fill-color": "rgba(136, 169, 136, 0.5)",
+        "fill-color": "rgba(214, 218, 214, 0.5)",
         "fill-opacity": 1,
         "fill-outline-color": "hsla(0, 0%, 0%, 0.03)"
       }
@@ -146,7 +146,7 @@
       "source": "openmaptiles",
       "source-layer": "landcover",
       "filter": ["==", "class", "grass"],
-      "paint": {"fill-color": "rgba(193, 206, 193, 0.84)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(223, 225, 223, 0.84)", "fill-opacity": 1}
     },
     {
       "id": "landcover-grass-park",
@@ -155,7 +155,7 @@
       "source-layer": "park",
       "filter": ["==", "class", "public_park"],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(136, 169, 136, 0.5)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(222, 219, 219, 0.5)", "fill-opacity": 1}
     },
     {
       "id": "forest-compartment",
@@ -298,7 +298,7 @@
       "maxzoom": 8,
       "filter": ["==", "$type", "Polygon"],
       "paint": {
-        "fill-color": "#a0c8f0",
+        "fill-color": "rgba(181, 181, 181, 1)",
         "fill-opacity": 1,
         "fill-translate": {"base": 1, "stops": [[6, [2, 0]], [8, [0, 0]]]}
       }
@@ -309,7 +309,7 @@
       "source": "openmaptiles",
       "source-layer": "water",
       "filter": ["all", ["!=", "intermittent", 1], ["!=", "brunnel", "tunnel"]],
-      "paint": {"fill-color": "rgba(153, 156, 161, 1)"}
+      "paint": {"fill-color": "rgba(211, 212, 212, 1)"}
     },
     {
       "id": "water-intermittent",
@@ -348,8 +348,8 @@
         "fill-color": {
           "base": 1,
           "stops": [
-            [15.5, "rgba(203, 196, 190, 1)"],
-            [16, "rgba(102, 100, 98, 1)"]
+            [15.5, "rgba(221, 219, 216, 1)"],
+            [16, "rgba(230, 225, 222, 1)"]
           ]
         }
       }
@@ -360,9 +360,9 @@
       "source": "openmaptiles",
       "source-layer": "building",
       "paint": {
-        "fill-color": "rgba(175, 171, 168, 0.9)",
+        "fill-color": "rgba(214, 212, 212, 0.9)",
         "fill-opacity": {"base": 1, "stops": [[13, 0], [16, 1]]},
-        "fill-outline-color": "rgba(96, 92, 87, 1)",
+        "fill-outline-color": "rgba(181, 181, 176, 1)",
         "fill-translate": {"base": 1, "stops": [[14, [0, 0]], [16, [-2, -2]]]}
       }
     },
@@ -1000,7 +1000,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "rgba(80, 80, 76, 0.99)",
+        "line-color": "rgba(160, 160, 157, 0.99)",
         "line-width": {"base": 1.2, "stops": [[6.5, 0], [7, 0.5], [20, 18]]}
       }
     },
@@ -1398,7 +1398,7 @@
       ],
       "layout": {"line-join": "round", "visibility": "visible"},
       "paint": {
-        "line-color": "hsl(28, 76%, 67%)",
+        "line-color": "rgba(121, 121, 112, 1)",
         "line-width": {
           "base": 1.2,
           "stops": [[5, 0.4], [6, 0.6], [7, 1.5], [20, 26]]
@@ -1418,7 +1418,7 @@
       ],
       "layout": {"line-join": "round", "visibility": "visible"},
       "paint": {
-        "line-color": "#fea",
+        "line-color": "rgba(121, 121, 112, 1)",
         "line-width": {"base": 1.2, "stops": [[6.5, 0], [7, 0.5], [20, 18]]}
       }
     },
@@ -1488,7 +1488,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "rgba(93, 88, 98, 1)",
+        "line-color": "rgba(176, 175, 181, 1)",
         "line-dasharray": [3, 1, 1, 1],
         "line-width": {"base": 1.4, "stops": [[4, 0.4], [5, 1], [12, 3]]}
       }
@@ -1591,8 +1591,8 @@
         "text-size": 14
       },
       "paint": {
-        "text-color": "rgba(69, 77, 87, 1)",
-        "text-halo-color": "rgba(255,255,255,0.7)",
+        "text-color": "rgba(146, 155, 165, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 0.88)",
         "text-halo-width": 1.5
       }
     },
@@ -1612,7 +1612,7 @@
         "text-letter-spacing": 0.2
       },
       "paint": {
-        "text-color": "rgba(69, 77, 87, 1)",
+        "text-color": "rgba(85, 89, 94, 1)",
         "text-halo-color": "rgba(255,255,255,0.7)",
         "text-halo-width": 1.5
       }
@@ -1781,10 +1781,12 @@
         "text-size": 12
       },
       "paint": {
-        "text-color": "#666",
+        "text-color": "rgba(163, 161, 161, 1)",
         "text-halo-blur": 0.5,
         "text-halo-color": "#ffffff",
-        "text-halo-width": 1
+        "text-halo-width": 1,
+        "icon-halo-color": "rgba(171, 171, 171, 1)",
+        "icon-color": "rgba(139, 136, 136, 1)"
       }
     },
     {
@@ -1926,9 +1928,12 @@
         "text-size": {"base": 1, "stops": [[13, 12], [14, 13]]}
       },
       "paint": {
-        "text-color": "rgba(20, 19, 19, 1)",
+        "text-color": "rgba(130, 126, 126, 1)",
         "text-halo-blur": 0.5,
-        "text-halo-width": 1
+        "text-halo-width": 1,
+        "icon-halo-color": "rgba(103, 103, 103, 1)",
+        "icon-color": "rgba(151, 151, 151, 1)",
+        "text-halo-color": "rgba(237, 237, 237, 1)"
       }
     },
     {
@@ -1946,10 +1951,12 @@
         "text-size": {"base": 1, "stops": [[13, 12], [14, 13]]}
       },
       "paint": {
-        "text-color": "rgba(20, 18, 17, 1)",
+        "text-color": "rgba(151, 147, 147, 1)",
         "text-halo-blur": 0.5,
         "text-halo-width": 1,
-        "icon-color": "rgba(234, 225, 225, 1)"
+        "icon-color": "rgba(234, 225, 225, 1)",
+        "icon-halo-color": "rgba(80, 76, 76, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)"
       }
     },
     {
@@ -2001,9 +2008,29 @@
         "text-field": "{ref}",
         "text-font": ["Noto Sans Regular"],
         "text-rotation-alignment": "viewport",
-        "text-size": 10
+        "text-size": 10,
+        "visibility": "visible",
+        "icon-keep-upright": false
       },
-      "paint": {"text-color": "rgba(232, 222, 222, 1)"}
+      "paint": {
+        "text-color": "rgba(255, 243, 243, 1)",
+        "text-translate-anchor": "map",
+        "icon-halo-color": {
+          "property": "",
+          "type": "exponential",
+          "stops": [
+            [{"zoom": 6, "value": 0}, "rgba(227, 220, 220, 1)"],
+            [{"zoom": 10, "value": 0}, "rgba(227, 220, 220, 1)"]
+          ]
+        },
+        "icon-translate-anchor": "map",
+        "icon-opacity": {
+          "property": "",
+          "type": "exponential",
+          "base": 1,
+          "stops": [[{"zoom": 6, "value": 0}, 1], [{"zoom": 10, "value": 0}, 1]]
+        }
+      }
     },
     {
       "id": "highway-shield-lt-primary",
@@ -2027,11 +2054,15 @@
         "text-font": ["Noto Sans Regular"],
         "text-rotation-alignment": "viewport",
         "text-size": 10,
-        "visibility": "visible"
+        "visibility": "visible",
+        "icon-allow-overlap": false
       },
       "paint": {
-        "text-color": "rgba(26, 25, 25, 1)",
-        "icon-translate-anchor": "map"
+        "text-color": "rgba(78, 75, 75, 1)",
+        "icon-translate-anchor": "map",
+        "icon-halo-color": "rgba(0, 0, 0, 1)",
+        "icon-opacity": 1,
+        "icon-color": "rgba(0, 0, 0, 1)"
       }
     },
     {
@@ -2110,9 +2141,10 @@
         "text-transform": "uppercase"
       },
       "paint": {
-        "text-color": "rgba(49, 53, 46, 1)",
+        "text-color": "rgba(137, 137, 137, 1)",
         "text-halo-width": 1,
-        "text-halo-color": "rgba(255, 255, 255, 0.7)"
+        "text-halo-color": "rgba(255, 255, 255, 0.7)",
+        "icon-color": "rgba(218, 218, 218, 1)"
       }
     },
     {
@@ -2138,7 +2170,7 @@
         "text-transform": "uppercase"
       },
       "paint": {
-        "text-color": "rgba(90, 81, 81, 1)",
+        "text-color": "rgba(174, 171, 171, 1)",
         "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 1.2
       }
@@ -2156,9 +2188,10 @@
         "text-size": {"base": 1.2, "stops": [[10, 12], [15, 22]]}
       },
       "paint": {
-        "text-color": "#333",
+        "text-color": "rgba(137, 136, 136, 1)",
         "text-halo-color": "rgba(255,255,255,0.8)",
-        "text-halo-width": 1.2
+        "text-halo-width": 1.2,
+        "icon-halo-color": "rgba(155, 151, 151, 1)"
       }
     },
     {
@@ -2174,8 +2207,8 @@
         "text-size": {"base": 1.2, "stops": [[10, 14], [15, 24]]}
       },
       "paint": {
-        "text-color": "#333",
-        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-color": "rgba(124, 123, 123, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 0.8)",
         "text-halo-width": 1.2
       }
     },
@@ -2192,7 +2225,7 @@
         "text-size": {"base": 1.2, "stops": [[7, 14], [11, 24]]}
       },
       "paint": {
-        "text-color": "#333",
+        "text-color": "rgba(120, 120, 120, 1)",
         "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 1.2
       }
@@ -2214,7 +2247,7 @@
         "text-size": {"base": 1.2, "stops": [[7, 14], [11, 24]]}
       },
       "paint": {
-        "text-color": "#333",
+        "text-color": "rgba(116, 111, 111, 1)",
         "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 1.2
       }

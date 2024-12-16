@@ -16,9 +16,9 @@ function switchBgLayers(layerName) {
 
   // Pagal funkcijos parametrą parenkamas žemėlapio stilius
   if (layerName === "Topografinis") {
-    layer = "https://basemap.startupgov.lt/vector/styles/bright/style.json";
+    layer = "styles/topo.json";
   } else if (layerName === "Apžvalginis") {
-    layer = "https://basemap.startupgov.lt/vector/styles/positron/style.json";
+    layer = "styles/outdoor.json";
   } else {
     layer = "styles/overview.json";
   }
