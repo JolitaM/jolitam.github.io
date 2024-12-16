@@ -19,7 +19,8 @@
     {
       "id": "background",
       "type": "background",
-      "paint": {"background-color": "rgba(234, 229, 225, 0.97)"}
+      "layout": {"visibility": "visible"},
+      "paint": {"background-color": "rgba(244, 244, 244, 1)"}
     },
     {
       "id": "landcover-glacier",

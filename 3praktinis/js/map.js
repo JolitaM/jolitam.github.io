@@ -1,9 +1,9 @@
 // Kodas inicijuojantis žemėlapio objektą div elemente map
 var map = new maplibregl.Map({
   container: "map",
-  style: "styles/overview.json",
+  style: "styles/topo.json",
   hash: true,
-  center: [24.000, 55.073],
+  center: [22.286, 55.221],
   zoom: 6,
 });
 
@@ -18,9 +18,9 @@ function switchBgLayers(layerName) {
   if (layerName === "Topografinis") {
     layer = "styles/topo.json";
   } else if (layerName === "Apžvalginis") {
-    layer = "styles/outdoor.json";
-  } else {
     layer = "styles/overview.json";
+  } else {
+    layer = "styles/outdoor.json";
   }
 
   // maplibre setStyle funkcija pakeičia žemėlapio stilių
