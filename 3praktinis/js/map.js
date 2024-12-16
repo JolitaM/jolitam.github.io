@@ -19,8 +19,6 @@ function switchBgLayers(layerName) {
     layer = "styles/topo.json";
   } else if (layerName === "Apžvalginis") {
     layer = "styles/overview.json";
-  } else {
-    layer = "styles/outdoor.json";
   }
 
   // maplibre setStyle funkcija pakeičia žemėlapio stilių
