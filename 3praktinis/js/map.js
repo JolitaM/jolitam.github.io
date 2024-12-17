@@ -183,15 +183,11 @@ async function identifyLayer() {
 
 
 
-/*map.addControl(new maplibregl.NavigationControl());*/
-
-
-let nav = new maplibregl.NavigationControl();
-map.addControl(nav, 'top-right');
+/*mastelis*/
 
 let scale = new maplibregl.ScaleControl({
   maxWidth: 80,
-  unit: 'imperial'
+  unit: 'metric'
 });
 map.addControl(scale, 'bottom-left');
 scale.setUnit('metric');
