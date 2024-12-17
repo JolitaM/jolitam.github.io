@@ -10,6 +10,7 @@ var map = new maplibregl.Map({
 // Add zoom and rotation controls to the map.
 map.addControl(new maplibregl.NavigationControl());
 
+
 // Funkcija skirta žemėlapių stilių keitimui
 function switchBgLayers(layerName) {
   var layer;
@@ -178,4 +179,31 @@ async function identifyLayer() {
     console.error(error.message);
   }
 }
+
+
+
+
+/*map.addControl(new maplibregl.NavigationControl());*/
+
+
+let nav = new maplibregl.NavigationControl();
+map.addControl(nav, 'top-right');
+
+let scale = new maplibregl.ScaleControl({
+  maxWidth: 80,
+  unit: 'imperial'
+});
+map.addControl(scale, 'bottom-left');
+scale.setUnit('metric');
+
+map.addControl(new maplibregl.FullscreenControl({container: document.querySelector('body')}));
+
+
+map.addControl(new maplibregl.GeolocateControl({
+  positionOptions: {
+      enableHighAccuracy: true
+  },
+  trackUserLocation: true
+}));
+
 
