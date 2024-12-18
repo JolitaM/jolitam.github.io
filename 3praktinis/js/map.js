@@ -189,7 +189,7 @@ let scale = new maplibregl.ScaleControl({
   maxWidth: 80,
   unit: 'metric'
 });
-map.addControl(scale, 'bottom-left');
+map.addControl(scale, 'bottom-right');
 scale.setUnit('metric');
 
 map.addControl(new maplibregl.FullscreenControl({container: document.querySelector('body')}));
